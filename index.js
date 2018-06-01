@@ -20,7 +20,7 @@ class Menu {
 
     get(key) {
         return this.items.find(item => {
-            return item.key === key;
+            return item.key == key;
         });
     }
 
